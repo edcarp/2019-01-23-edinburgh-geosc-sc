@@ -126,9 +126,9 @@ and our administrator may contact you if we need any extra information.</h4>
   The workshop is currently open to all University staff and students of all levels. Please register through MyEd events listing; search for *Software Carpentry at GeoSciences*.
 
 <p id="requirements">
-  <strong>Requirements:</strong> Edinburgh University staff or students may use their IT account logins for the university computers in the computer. You are also free to bring your own laptop if you prefer, subject to the criteria below for external users.
+  <strong>Requirements:</strong> Edinburgh University staff or students may use their IT account logins for the university computers in the computer. You are also free to bring your own laptop if you prefer, subject to the criteria below for external users.<br>
   
-  ***The university computers already have all the required software for this workshop, and you may find set-up easier using your university IT account, rather than your own laptop.***
+  The university computers already have all the required software for this workshop, and you may find set-up easier using your university IT account, rather than your own laptop.<br>
   
   External participants must bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
@@ -615,6 +615,8 @@ and our administrator may contact you if we need any extra information.</h4>
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
 
+{% comment %}
+
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
 
@@ -666,6 +668,10 @@ and our administrator may contact you if we need any extra information.</h4>
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
+{% endcomment %}
+
+{% comment %}
+
 <div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
   <h3>SQLite</h3>
 
@@ -711,6 +717,8 @@ and our administrator may contact you if we need any extra information.</h4>
     <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
     Instructors will provide a workaround for it if needed.</strong></p>
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
+
+{% endcomment %}
 
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
   <h3>OpenRefine</h3>
