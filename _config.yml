@@ -44,8 +44,8 @@ swc_pages: "https://swcarpentry.github.io"
 swc_site: "https://software-carpentry.org"
 template_repo: "https://github.com/carpentries/styles"
 training_site: "https://carpentries.github.io/instructor-training"
-workshop_repo: "https://github.com/edcarp/2019-02-20-edinburgh-geos-sc"
-workshop_site: "https://edcarp.github.io/2019-02-20-edinburgh-geos-sc"
+workshop_repo: "https://github.com/edcarp/2019-01-23-edinburgh-geosc-sc"
+workshop_site: "https://edcarp.github.io/2019-01-23-edinburgh-geosc-sc"
 
 # Surveys.
 swc_pre_survey: "https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id="
