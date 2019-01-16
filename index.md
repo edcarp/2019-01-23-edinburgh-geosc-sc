@@ -121,8 +121,14 @@ and our administrator may contact you if we need any extra information.</h4>
 
   Modify the block below if there are any special requirements.
 {% endcomment %}
+<p id="registration">
+  <strong>Registration:</strong> 
+  The workshop is currently open to all University staff and students of all levels. Please register through MyEd events listing; search for *Software Carpentry at GeoSciences*.
+
 <p id="requirements">
-  <strong>Requirements:</strong> Edinburgh University staff or students may use their IT account logins for the university computers in the computer. You are also free to bring your own laptop if you prefer, subject to the criteria below for external usets  
+  <strong>Requirements:</strong> Edinburgh University staff or students may use their IT account logins for the university computers in the computer. You are also free to bring your own laptop if you prefer, subject to the criteria below for external users.
+  
+  ***The university computers already have all the required software for this workshop, and you may find set-up easier using your university IT account, rather than your own laptop.***
   
   External participants must bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
