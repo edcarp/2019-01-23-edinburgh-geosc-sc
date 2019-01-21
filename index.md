@@ -12,7 +12,7 @@ humantime: "9:00AM - 5:00PM"    # human-readable times for the workshop (e.g., "
 startdate: 2019-01-23      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-01-24        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Magnus Hagdorn", "Declan Valters"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Chris Hill", "Mike Mineter", "Martino Sorbaro Sindaci", "Mathew Hamilton"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["James Fulton", "Chris Hill", "Mike Mineter", "Martino Sorbaro Sindaci", "Mathew Hamilton"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["Magnus.Hagdorn@ed.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: "https://pad.carpentries.org/edinburgh-geos-software-caprnetry"            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -123,17 +123,14 @@ and our administrator may contact you if we need any extra information.</h4>
 {% endcomment %}
 <p id="registration">
   <strong>Registration:</strong> 
-  The workshop is currently open to all University staff and students of all levels. Please register through MyEd events listing; search for *Software Carpentry at GeoSciences*.
+  The workshop is currently open to all University staff and students of all levels. Please register through MyEd events listing; search for <strong>Software Carpentry at GeoSciences</strong>.
 
 <p id="requirements">
-  <strong>Requirements:</strong> Edinburgh University staff or students may use their IT account logins for the university computers in the computer. You are also free to bring your own laptop if you prefer, subject to the criteria below for external users.<br>
-  
-  The university computers already have all the required software for this workshop, and you may find set-up easier using your university IT account, rather than your own laptop.<br>
-  
-  External participants must bring a laptop with a
+  <strong>Requirements:</strong>
+  We recommend attendees bring their own laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
   on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
+  <a href="#setup">below</a>). We strongly recommend installing the packages <strong>before</strong> the workshop begins. However, helpers will be on hand to help during the workshop if you have problems or errors setting up your laptop. Attendees are also required to abide by
   {% if page.carpentry == "swc" %}
   Software Carpentry's
   {% elsif page.carpentry == "dc" %}
